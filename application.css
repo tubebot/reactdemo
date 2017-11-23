@@ -1,0 +1,112 @@
+html {
+  height: 100%;
+}
+
+body {
+  transition: all 2s ease;
+  height: 100%;
+}
+
+.container {
+  font-family: Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  margin-top: 100px;
+  max-width: 640px;
+  text-align: center;
+}
+
+.node-collection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.node-container {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.node {
+  border: solid;
+  border-color: #dddddd;
+  border-width: 8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.node-connector {
+  background: #dddddd;
+  width: 57px;
+  height: 8px;
+  margin-top: 0px;
+  margin-left: -40px;
+  position: absolute;
+  z-index: -1;
+}
+
+.node-label {
+  font-weight: bold;
+  color: #7046f3;
+  margin-top: -40px;
+  position: absolute;
+  text-transform: capitalize;
+}
+
+/* Animations
+*/
+.animate-active {
+  animation: activate 2s forwards;
+  -webkit-animation: activate 2s forwards;
+}
+@-webkit-keyframes activate {
+	from { border-color: #dddddd; }
+	to { border-color: #7046f3; }
+}
+@-moz-keyframes activate {
+	from { border-color: #dddddd; }
+	to { border-color: #7046f3; }
+}
+@-o-keyframes activate {
+	from { border-color: #dddddd; }
+	to { border-color: #7046f3; }
+}
+@keyframes activate {
+	from { border-color: #dddddd; }
+	to { border-color: #7046f3; }
+}
+
+.animate-line {
+  animation: activate-line 2s forwards;
+  -webkit-animation: activate-line 2s forwards;
+}
+@-webkit-keyframes activate-line {
+	from { background: #dddddd; }
+	to { background: #7046f3; }
+}
+@-moz-keyframes activate-line {
+	from { background: #dddddd; }
+	to { background: #7046f3; }
+}
+@-o-keyframes activate-line {
+	from { background: #dddddd; }
+	to { background: #7046f3; }
+}
+@keyframes activate-line {
+	from { background: #dddddd; }
+	to { background: #7046f3; }
+}

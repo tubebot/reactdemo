@@ -1,0 +1,19 @@
+{
+  "name": "stepprogress",
+  "version": "1.0.0",
+  "description": "a simple step progress react component",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tubebot/reactdemo.git"
+  },
+  "author": "Callan Carr <callan@emerald.li>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tubebot/reactdemo/issues"
+  },
+  "homepage": "https://github.com/tubebot/reactdemo#readme"
+}
