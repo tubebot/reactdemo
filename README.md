@@ -4,7 +4,7 @@ A simple step progress component demonstration using react.js
 
 ## Live Demo
 
-to view the live demo; click here
+to view the live demo; click [here](http://react-sandbox-callancarr.c9users.io)
 
 ## Features
 
@@ -29,3 +29,7 @@ Interaction
 To interact with the component click on one of the nodes to progress a step forward or a step backwards. You will only be able to progress sequentially (you cannot skip nodes).
 
 ## Installation
+
+`npm install stepprogress`
+
+includes .jsx files and .css files.
